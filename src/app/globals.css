@@ -9,8 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #000000;
+    --foreground: #ffffff;
   }
 }
 
@@ -25,3 +25,14 @@ body {
     text-wrap: balance;
   }
 }
+
+.margined-container {
+  margin: 0% 0%;
+}
+
+@media (orientation: landscape) {
+  .margined-container {
+    margin: 2% 20%;
+    border-radius: 20px;
+  }
+} 
