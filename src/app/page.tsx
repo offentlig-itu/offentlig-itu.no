@@ -45,13 +45,13 @@ const HomePage = () => {
 
 
       <div className="w-full mt-10 overflow-hidden">
-        <div className="animate-scroll flex space-x-4">
+        <div className="animate-scroll flex space-x-16">
           {images.concat(images).map((image, index) => (
             <div key={index} className="w-1/3 flex-shrink-0">
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover rounded-lg"
               />
             </div>
           ))}
@@ -74,22 +74,7 @@ const HomePage = () => {
         ))}
       </div>
 
-      <style jsx>{`
-        .animate-scroll {
-          display: inline-flex;
-          white-space: nowrap;
-          animation: scroll 30s linear infinite;
-        }
 
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-100%);
-          }
-        }
-      `}</style>
     </div>
   );
 };
