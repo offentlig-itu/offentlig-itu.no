@@ -4,6 +4,8 @@
 @tailwind utilities;
 
 
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -20,3 +22,19 @@ body {
 .full-height {
   height: 100%;
 }
+
+
+  .animate-scroll {
+    display: inline-flex;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
