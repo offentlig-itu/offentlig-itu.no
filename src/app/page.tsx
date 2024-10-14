@@ -45,7 +45,7 @@ const HomePage = () => {
 
 
       <div className="w-full mt-10 overflow-hidden">
-        <div className="animate-scroll flex space-x-16">
+        <div className="animate-scroll flex space-x-14">
           {images.concat(images).map((image, index) => (
             <div key={index} className="w-1/3 flex-shrink-0">
               <img

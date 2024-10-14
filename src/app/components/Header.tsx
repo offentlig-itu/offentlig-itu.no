@@ -10,10 +10,13 @@ export default function Header() {
         <header className="shadow-md">
             <nav className="flex justify-center items-center p-4">
                 <div className="flex items-center join">
+                <Link href="/">
+                        <button className="btn join-item">Hjem</button>
+                    </Link>
                     <Link href="/om">
                         <button className="btn join-item">Om</button>
                     </Link>
-                    <Link href="/artikler">
+                      <Link href="/artikler">
                         <button className="btn join-item">Artikler</button>
                     </Link>
                     <Link href="/fagdager">
