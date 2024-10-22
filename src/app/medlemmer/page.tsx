@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from 'react';
@@ -15,7 +14,7 @@ const MembersPage = () => {
       name: "Consectetur Adipiscing",
       role: "Elit Sed Do",
       bio: "Consectetur adipiscing elit. Fusce vel ligula nec justo pharetra volutpat a in velit. Donec auctor nulla eget velit sagittis tristique.",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "https://via.placeholder.com/150", 
     },
     {
       name: "Eiusmod Tempor",
@@ -27,7 +26,7 @@ const MembersPage = () => {
       name: "Labore Et Dolore",
       role: "Magna Aliqua",
       bio: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://via.placeholder.com/150", 
+      imageUrl: "https://via.placeholder.com/150",
     },
     {
       name: "Minim Veniam",
