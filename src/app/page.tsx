@@ -16,21 +16,21 @@ const HomePage = () => {
       date: "1. januar 2024",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl tincidunt, fermentum justo in, viverra arcu. Ut pretium dui non massa volutpat, vel tincidunt tortor lobortis.",
-      url: "/articles/lorem-ipsum-1",
+      url: "/artikler",
     },
     {
       title: "Sed Do Eiusmod Tempor Incididunt",
       date: "12. februar 2024",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "/articles/lorem-ipsum-2",
+      url: "artikler",
     },
     {
       title: "Ut Enim Ad Minim Veniam",
       date: "23. mars 2024",
       description:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
-      url: "/articles/lorem-ipsum-3",
+      url: "/articler",
     },
   ];
 
